@@ -13,7 +13,7 @@ class Rectangle extends Shape{
         $this->height = $height;
     }
        public function  area(){
-        return "masahat:" . $this->width * $this->height . self::UNIT;
+        return "Area of a square:" . $this->width * $this->height . self::UNIT;
        }
 }
 
@@ -25,7 +25,7 @@ class cricle extends Shape{
     }
 
            public function  area(){
-        return "masahat:" . ($this->radius ** 2)*M_PI . self::UNIT;
+        return "Area of a circle:" . ($this->radius ** 2)*M_PI . self::UNIT;
        }
 
 }
